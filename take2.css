@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Qontra;
+  src: url(fonts/qontra.otf);
+}
+
+body {
+  font-family: "Qontra";
+}
+
+.section0 {
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Title page */
+
+.section0 {
+  background-image: url("pix/mountain.jpg");
+  min-height: 100%;
+}
+
+.name {
+  height: 200px;
+  width: 400px;
+  color: white;
+  border: 5px white solid;
+  padding: 15px;
+  text-align: center;
+  font-size: large;
+}
+
+/* Navigation bar at the top*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: seagreen;
+  position: -webkit-sticky;
+  /*Safari*/
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: darkslategrey;
+}
+
+/* The About me Section */
+
+#aboutme {
+  background-image: url("pix/nightsky.jpg");
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  padding: 15px;
+  font-size: 25px;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+
+#mepic {
+  float: left;
+  width: 30%;
+  margin-left: 10px;
+}
+
+#projects {
+  background-image: url("pix/sunset.jpg");
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  padding: 15px;
+  font-size: 25px;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  min-height: 400px;
+  background-color: palevioletred;
+}
+
+#contact {
+  background-image: url("pix/bay.jpg");
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  padding: 15px;
+  font-size: 25px;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  min-height: 400px;
+  background-color: palevioletred;
+  background-color: mediumaquamarine;
+}

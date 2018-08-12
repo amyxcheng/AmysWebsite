@@ -1,0 +1,60 @@
+/* garmish.css */
+
+/* Style rule for the body element*/
+
+body {
+  background-color: lavender;
+  background-image: url(pix/mountain.jpg), url(pix/norway.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: Qontra;
+  src: url(fonts/qontra.otf);
+}
+
+/* Style rule for the wrapper div */
+
+#mainIntro {
+  width: 425px;
+  margin-top: 15%;
+  margin-left: 34%;
+  position: center;
+  /*background-color:white;*/
+  opacity: 1;
+  border: solid 6px white;
+  border-radius: 0px;
+  font-family: "Qontra";
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: x-large;
+}
+
+p {
+  font-family: "Qontra";
+  color: white;
+}
+
+a:link {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+a:visited {
+  color: fuchsia;
+  background-color: aqua;
+}
+
+a:hover {
+  color: slateblue;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: greenyellow;
+  text-decoration: wavy;
+}

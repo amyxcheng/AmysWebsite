@@ -1,0 +1,20 @@
+## ----- IDE -----
+## IntelliJ
+.idea/
+
+## VSCode (keeping workspace configurations)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+## ----- OS -----
+## System Files – Mac OS X
+.DS_Store
+.DS_Store?
+*.swp
+
+## System Files – Windows
+Thumbs.db
