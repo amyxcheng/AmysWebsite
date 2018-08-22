@@ -5,14 +5,15 @@
 
 body {
   font-family: "Qontra";
+  margin: 0;
+  background-color: lavender;
 }
 
 .section0 {
   width: 100vw;
   height: 100vh;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: no-repeat fixed center;
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -43,7 +44,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: seagreen;
+  background-color: rgba(0, 0, 0, 0.75);
   position: -webkit-sticky;
   /*Safari*/
   position: sticky;
@@ -60,23 +61,31 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 14pt;
+  font-weight: bolder;
 }
 
 li a:hover {
-  background-color: darkslategrey;
+  background-color: rgba(110, 100, 194, 0.6);
 }
 
 /* The About me Section */
 
 #aboutme {
-  background-image: url("pix/nightsky.jpg");
+  background: url("pix/nightsky.jpg") no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   color: white;
   padding: 15px;
   font-size: 25px;
-  background-repeat: no-repeat;
   min-height: 400px;
+}
+
+#aboutme .section1-inner {
+  width: 50vw;
+  margin: 0 auto;
+  min-width: 200px;
 }
 
 #mepic {
@@ -86,26 +95,26 @@ li a:hover {
 }
 
 #projects {
-  background-image: url("pix/sunset.jpg");
+  background: url("pix/sunset.jpg") no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   color: white;
   padding: 15px;
   font-size: 25px;
-  background-repeat: no-repeat;
   min-height: 400px;
   min-height: 400px;
   background-color: palevioletred;
 }
 
 #contact {
-  background-image: url("pix/bay.jpg");
+  background: url("pix/bay.jpg") no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   color: white;
   padding: 15px;
   font-size: 25px;
-  background-repeat: no-repeat;
   min-height: 400px;
   min-height: 400px;
   background-color: palevioletred;
