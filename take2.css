@@ -9,25 +9,28 @@ body {
   background-color: lavender;
 }
 
-.section0 {
-  width: 100vw;
-  height: 100vh;
-  background: no-repeat fixed center;
-  background-size: cover;
+.section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+
+  background: no-repeat fixed center;
+  background-size: cover;
 }
 
 /* Title page */
 
-.section0 {
+#title {
   background-image: url("pix/mountain.jpg");
-  min-height: 100%;
+  min-height: 100vh;
 }
 
-.name {
+#title .name {
   height: 200px;
   width: 400px;
   color: white;
@@ -71,19 +74,15 @@ li a:hover {
 
 /* The About me Section */
 
-#aboutme {
-  background: url("pix/nightsky.jpg") no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
+#about-me {
+  background-color: #7986CB;
   color: white;
   padding: 15px;
   font-size: 25px;
-  min-height: 400px;
 }
 
-#aboutme .section1-inner {
-  width: 50vw;
+.section-inner {
+  width: 85vw;
   margin: 0 auto;
   min-width: 200px;
 }
@@ -95,28 +94,25 @@ li a:hover {
 }
 
 #projects {
-  background: url("pix/sunset.jpg") no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
   color: white;
   padding: 15px;
   font-size: 25px;
-  min-height: 400px;
-  min-height: 400px;
-  background-color: palevioletred;
+  /* min-height: 400px; */
+  background-image: url("pix/sunset.jpg");
+}
+
+#blog {
+  background-color: #7986CB;
+  color: white;
+  padding: 15px;
+  font-size: 25px;
 }
 
 #contact {
-  background: url("pix/bay.jpg") no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   color: white;
   padding: 15px;
   font-size: 25px;
-  min-height: 400px;
-  min-height: 400px;
-  background-color: palevioletred;
-  background-color: mediumaquamarine;
+  /* min-height: 400px; */
+  background-image: url("pix/bay.jpg");
 }
