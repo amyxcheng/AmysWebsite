@@ -115,6 +115,7 @@ li a:hover {
   font-size: 25px;
   /* min-height: 400px; */
   background-image: url("pix/bay.jpg");
+  text-align: center;
 }
 
 .contact-links {
@@ -122,8 +123,29 @@ li a:hover {
   width: 250px;
   text-align: center;
   margin: auto;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
   color: white;
   text-underline: none;
   padding: 20px;
+}
+
+a.links{
+  text-decoration: none;
+  color: #7986CB;
+  font-size: 35px;
+}
+a.links:link {
+
+}
+
+a.links:visited {
+  color: #3F51B5;
+}
+
+a.links:hover {
+ color: #5C6BC0;
+}
+
+a.links:active {
+
 }
